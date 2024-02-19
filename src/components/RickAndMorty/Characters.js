@@ -1,7 +1,7 @@
 import {Character} from "./Character";
 
 const Characters = () => {
-    let characters =[
+    const characters =[
         {
             id: 1,
             name: "Rick Sanchez",
@@ -55,7 +55,7 @@ const Characters = () => {
     ]
     return (
         <div>
-            {characters.map((character,index)=><Characters key={index} character={character}/>)}
+            {characters.map(character=><Character key={character.id} character={character}/>)}
         </div>
     );
 };

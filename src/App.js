@@ -1,11 +1,11 @@
 import {Simpsons} from "./components/Simpsons/Simpsons";
-// import {Characters} from "./components/RickAndMorty/Characters";
+import {Characters} from "./components/RickAndMorty/Characters";
 
 const App = () => {
     return (
         <div>
             <Simpsons/>
-            {/*<Characters/>*/}
+            <Characters/>
         </div>
     );
 };
